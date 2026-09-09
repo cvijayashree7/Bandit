@@ -1,0 +1,25 @@
+# Bandit Level 4
+
+## Objective
+
+The objective of Level 4 is to find the only human-readable file in the `inhere` directory.
+
+## Commands Used
+
+First, move into the `inhere` directory:
+
+```bash
+cd inhere
+--bash
+ls
+
+There are multiple files in the directory. We need to identify which file contains human-readable text.
+
+Use the file command:
+
+--bash
+file ./*
+
+This checks the type of each file.
+
+The human-readable file can then be identified from the output.
