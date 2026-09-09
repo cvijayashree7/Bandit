@@ -1,0 +1,21 @@
+# Bandit Level 1
+
+ Objective
+The objective of Level 1 is to find the password for the next level.
+
+## Command
+```bash
+ls
+The password is stored in a file named -.
+
+---bash
+cat ./-
+
+Result
+The command displays the password required to log in to Bandit Level 2.
+
+The password is not included in this repository.
+
+Level-01/
+├── README.md
+└── level-01.png
