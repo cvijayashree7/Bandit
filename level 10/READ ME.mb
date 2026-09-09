@@ -1,0 +1,22 @@
+Objective:-
+
+The objective of Level 10 is to decode the password stored in data.txt.
+The contents of the file are Base64 encoded.
+
+Step 1 — Check the file
+ls
+You should see:
+---bash
+data.txt
+Step 2 — View the encoded data
+---bash
+cat data.txt
+Step 3 — Decode it
+Use:
+---bash
+base64 -d data.txt
+Explanation
+cat data.txt – displays the contents of the file.
+base64 – works with Base64 encoding/decoding.
+-d – tells base64 to decode the input.
+base64 -d data.txt – decodes the contents of data.txt.
