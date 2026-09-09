@@ -1,0 +1,17 @@
+# Bandit Level 1
+
+# Objective
+
+The objective of Level 1 is to find the password for the next level.
+
+# Command
+
+```bash
+ls
+
+#command
+cat ./-
+
+cat – displays the contents of a file.
+./ – refers to the current directory.
+- – is the filename.
