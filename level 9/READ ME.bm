@@ -1,0 +1,22 @@
+OBJECTIVE:
+The objective of Level 9 is to find the password hidden in data.txt.
+The password is in the file among human-readable strings and is preceded by several = characters.
+
+Check the file
+ls
+
+You should see:
+step 1-data.txt
+Step 2 — Find human-readable strings
+
+Use:
+strings data.txt
+
+strings data.txt | grep =
+
+This should help you identify the line containing the password.
+
+Explanation:
+strings data.txt – extracts human-readable text from the file.
+| – passes the output to the next command.
+grep = – searches for lines containing =.
