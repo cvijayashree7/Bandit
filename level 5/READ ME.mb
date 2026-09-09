@@ -1,0 +1,38 @@
+# Bandit Level 5
+
+# Objective
+
+The objective of Level 5 is to find the file that meets specific conditions.
+
+The required file:
+
+- Is human-readable
+- Is not executable
+- Has a size of 1033 bytes
+
+# Commands Used
+
+First, move into the `inhere` directory:
+
+```bash
+cd inhere
+
+Then find the file using:
+
+--bash
+find . -type f -size 1033c ! -executable
+
+After finding the required file, read it using:
+
+--bash
+cat ./<filename>
+
+Explanation:
+cd inhere – moves into the inhere directory.
+find . – searches from the current directory.
+-type f – searches only for regular files.
+-size 1033c – searches for files that are exactly 1033 bytes.
+! -executable – excludes executable files.
+cat – displays the contents of the identified file.
+
+The identified file contains the password required to log in to Bandit Level 6.
