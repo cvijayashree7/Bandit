@@ -1,0 +1,22 @@
+# Bandit Level 3
+
+## Objective
+
+The objective of Level 3 is to find the password for the next level.
+
+## Command
+
+First, list the files in the current directory:
+
+```bash
+ls
+--bash
+cd inhere
+ls -la
+--bash
+cat .hidden
+
+1.cd inhere – moves into the inhere directory.
+2.ls -la – lists all files, including hidden files.
+3.cat .hidden – displays the contents of the hidden file.
+4.Files beginning with . are hidden files in Linux
