@@ -1,0 +1,22 @@
+Objective
+The objective of Level 11 is to decode the password stored in data.txt.
+The password is encoded using ROT13.
+
+PROCEDURE:
+Step 1 — Check the file
+ls
+You should see:
+data.txt
+Step 2 — View the encoded text
+cat data.txt
+You will see the password in an encoded form.
+Step 3 — Decode using ROT13
+
+Use:
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+This converts each letter to its ROT13 equivalent.
+
+Result
+The decoded text is the password required to log in to Bandit Level 12.
+Do not include the password in your GitHub README or screenshot.
