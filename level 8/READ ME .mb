@@ -1,0 +1,26 @@
+# Bandit Level 8
+
+## Objective
+
+The objective of Level 8 is to find the password for the next level.
+
+The password is the only line in `data.txt` that occurs exactly once.
+
+## Commands Used
+
+First, list the files:
+
+```bash
+ls
+
+Check the file
+ls
+
+Find the unique line
+Use:
+sort data.txt | uniq -u
+
+Explanation
+sort data.txt – sorts all the lines in data.txt.
+| – sends the output of one command to another command.
+uniq -u – displays only lines that occur exactly once
