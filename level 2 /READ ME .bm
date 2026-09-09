@@ -1,0 +1,17 @@
+# Bandit Level 2
+
+## Objective
+
+The objective of Level 2 is to find the password for the next level.
+
+## Command
+
+First, list the files in the current directory:
+
+```bash
+ls
+
+The filename contains spaces, so the complete filename is enclosed in double quotes.
+
+cat – displays the contents of a file.
+"spaces in this filename" – specifies the complete filename as one argument.
