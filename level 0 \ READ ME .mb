@@ -1,0 +1,18 @@
+# Bandit Level 0
+
+ Objective
+
+The objective of Level 0 is to connect to the Bandit server using SSH.
+
+ SSH Command
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+1.ssh – Secure Shell command used to connect to a remote server.
+2.bandit0 – Username provided for Level 0.
+3.bandit.labs.overthewire.org – Bandit server.
+4.-p 2220 – Specifies port 2220.
+
+Result
+
+After entering the SSH command and the password, I successfully connected to the Bandit Level 0 environment.
